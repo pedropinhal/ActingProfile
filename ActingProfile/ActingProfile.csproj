@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C635E478-2326-4298-8838-9355C5CC7B37}</ProjectGuid>
+    <ProjectTypeGuids>{E53F8FEA-EAE0-44A6-8774-FFD645390401};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ActingProfile</RootNamespace>
+    <AssemblyName>ActingProfile</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.WebPages" />
+    <Reference Include="System.Web.Helpers" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\ImageInfo.cs" />
+    <Compile Include="Models\PhotosViewModel.cs" />
+    <Compile Include="Controllers\SiteController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\960.css" />
+    <Content Include="Content\colorbox.css" />
+    <Content Include="Content\images\colorbox\border.png" />
+    <Content Include="Content\images\colorbox\controls.png" />
+    <Content Include="Content\images\colorbox\ie6\borderBottomCenter.png" />
+    <Content Include="Content\images\colorbox\ie6\borderBottomLeft.png" />
+    <Content Include="Content\images\colorbox\ie6\borderBottomRight.png" />
+    <Content Include="Content\images\colorbox\ie6\borderMiddleLeft.png" />
+    <Content Include="Content\images\colorbox\ie6\borderMiddleRight.png" />
+    <Content Include="Content\images\colorbox\ie6\borderTopCenter.png" />
+    <Content Include="Content\images\colorbox\ie6\borderTopLeft.png" />
+    <Content Include="Content\images\colorbox\ie6\borderTopRight.png" />
+    <Content Include="Content\images\colorbox\loading.gif" />
+    <Content Include="Content\images\colorbox\loading_background.png" />
+    <Content Include="Content\images\colorbox\overlay.png" />
+    <Content Include="Content\images\gallery\5545-thumb.jpg" />
+    <Content Include="Content\images\gallery\5545.jpg" />
+    <Content Include="Content\images\gallery\5547-thumb.jpg" />
+    <Content Include="Content\images\gallery\5547.jpg" />
+    <Content Include="Content\images\gallery\5550-thumb.jpg" />
+    <Content Include="Content\images\gallery\5550.jpg" />
+    <Content Include="Content\images\gallery\5552-thumb.jpg" />
+    <Content Include="Content\images\gallery\5552.jpg" />
+    <Content Include="Content\images\gallery\IMG_5943-thumb.jpg" />
+    <Content Include="Content\images\gallery\IMG_5943.jpg" />
+    <Content Include="Content\images\gallery\IMG_5944-thumb.jpg" />
+    <Content Include="Content\images\gallery\IMG_5944.jpg" />
+    <Content Include="Content\images\gallery\IMG_5945-thumb.jpg" />
+    <Content Include="Content\images\gallery\IMG_5945.jpg" />
+    <Content Include="Content\images\gallery\IMG_5962-thumb.jpg" />
+    <Content Include="Content\images\gallery\IMG_5962.jpg" />
+    <Content Include="Content\images\gallery\IMG_5963-thumb.jpg" />
+    <Content Include="Content\images\gallery\IMG_5963.jpg" />
+    <Content Include="Content\images\gallery\IMG_5975-thumb.jpg" />
+    <Content Include="Content\images\gallery\IMG_5975.jpg" />
+    <Content Include="Content\images\gallery\IMG_5976-thumb.jpg" />
+    <Content Include="Content\images\gallery\IMG_5976.jpg" />
+    <Content Include="Content\images\gallery\leeds-thumb.jpg" />
+    <Content Include="Content\images\gallery\leeds.jpg" />
+    <Content Include="Content\images\headshots\01-thumb.jpg" />
+    <Content Include="Content\images\headshots\01.jpg" />
+    <Content Include="Content\images\headshots\02-thumb.jpg" />
+    <Content Include="Content\images\headshots\02.jpg" />
+    <Content Include="Content\images\headshots\03-thumb.jpg" />
+    <Content Include="Content\images\headshots\03.jpg" />
+    <Content Include="Content\images\headshots\04-thumb.jpg" />
+    <Content Include="Content\images\headshots\04.jpg" />
+    <Content Include="Content\images\headshots\05-thumb.jpg" />
+    <Content Include="Content\images\headshots\05.jpg" />
+    <Content Include="Content\images\headshots\06-thumb.jpg" />
+    <Content Include="Content\images\headshots\06.jpg" />
+    <Content Include="Content\images\headshots\07-thumb.jpg" />
+    <Content Include="Content\images\headshots\07.jpg" />
+    <Content Include="Content\images\headshots\08-thumb.jpg" />
+    <Content Include="Content\images\headshots\08.jpg" />
+    <Content Include="Content\images\headshots\09-thumb.jpg" />
+    <Content Include="Content\images\headshots\09.jpg" />
+    <Content Include="Content\images\site\12_col.gif" />
+    <Content Include="Content\images\site\16_col.gif" />
+    <Content Include="Content\images\site\24_col.gif" />
+    <Content Include="Content\images\site\bg.png" />
+    <Content Include="Content\images\site\bg2.png" />
+    <Content Include="Content\images\site\bg3.png" />
+    <Content Include="Content\images\site\bg4.png" />
+    <Content Include="Content\images\site\bg5.png" />
+    <Content Include="Content\images\site\bg6.png" />
+    <Content Include="Content\images\site\bg7.png" />
+    <Content Include="Content\images\site\bg8.png" />
+    <Content Include="Content\images\site\bg_t.png" />
+    <Content Include="Content\images\site\dark_bg.gif" />
+    <Content Include="Content\images\site\logo.png" />
+    <Content Include="Content\images\site\logo2.png" />
+    <Content Include="Content\images\theatre\ladies_02932-thumb.jpg" />
+    <Content Include="Content\images\theatre\ladies_02932.jpg" />
+    <Content Include="Content\images\theatre\ladies_02953-thumb.jpg" />
+    <Content Include="Content\images\theatre\ladies_02953.jpg" />
+    <Content Include="Content\images\theatre\ladies_02970-thumb.jpg" />
+    <Content Include="Content\images\theatre\ladies_02970.jpg" />
+    <Content Include="Content\images\theatre\ladies_02985-thumb.jpg" />
+    <Content Include="Content\images\theatre\ladies_02985.jpg" />
+    <Content Include="Content\images\theatre\ripley_1441-thumb.jpg" />
+    <Content Include="Content\images\theatre\ripley_1441.jpg" />
+    <Content Include="Content\images\theatre\ripley_1448-thumb.jpg" />
+    <Content Include="Content\images\theatre\ripley_1448.jpg" />
+    <Content Include="Content\images\theatre\ripley_1449-thumb.jpg" />
+    <Content Include="Content\images\theatre\ripley_1449.jpg" />
+    <Content Include="Content\images\theatre\ripley_1450-thumb.jpg" />
+    <Content Include="Content\images\theatre\ripley_1450.jpg" />
+    <Content Include="Content\images\theatre\ripley_1451.jpg" />
+    <Content Include="Content\images\theatre\ripley_1457-thumb.jpg" />
+    <Content Include="Content\images\theatre\ripley_1457.jpg" />
+    <Content Include="Content\images\theatre\ripley_1480.jpg" />
+    <Content Include="Content\images\theatre\ripley_1490.jpg" />
+    <Content Include="Content\images\theatre\ripley_1491.jpg" />
+    <Content Include="Content\images\theatre\ripley_1493.jpg" />
+    <Content Include="Content\images\theatre\ripley_1497-thumb.jpg" />
+    <Content Include="Content\images\theatre\ripley_1497.jpg" />
+    <Content Include="Content\images\theatre\ripley_1498.jpg" />
+    <Content Include="Content\images\theatre\ripley_1503.jpg" />
+    <Content Include="Content\images\theatre\ripley_1503a.jpg" />
+    <Content Include="Content\images\theatre\ripley_1506a-thumb.jpg" />
+    <Content Include="Content\images\theatre\ripley_1506a.jpg" />
+    <Content Include="Content\images\theatre\ripley_1523a.jpg" />
+    <Content Include="Content\images\theatre\ripley_1659.jpg" />
+    <Content Include="Content\images\theatre\ripley_1661a.jpg" />
+    <Content Include="Content\images\theatre\ripley_1662-thumb.jpg" />
+    <Content Include="Content\images\theatre\ripley_1662.jpg" />
+    <Content Include="Content\images\theatre\ripley_1667.jpg" />
+    <Content Include="Content\images\theatre\ripley_1670a-thumb.jpg" />
+    <Content Include="Content\images\theatre\ripley_1670a.jpg" />
+    <Content Include="Content\images\theatre\ripley_1684.jpg" />
+    <Content Include="Content\images\theatre\ripley_1737-thumb.jpg" />
+    <Content Include="Content\images\theatre\ripley_1737.jpg" />
+    <Content Include="Content\images\theatre\ripley_1738.jpg" />
+    <Content Include="Content\images\theatre\ripley_1769a.jpg" />
+    <Content Include="Content\site.css" />
+    <Content Include="Content\reset.css" />
+    <Content Include="Content\text.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\themes\base\jquery-ui.css" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Scripts\jquery.colorbox.js" />
+    <Content Include="Views\Shared\Nav.ascx" />
+    <Content Include="Views\Site\Credits.aspx" />
+    <Content Include="Views\Site\Home.aspx" />
+    <Content Include="Views\Site\Information.aspx" />
+    <Content Include="Views\Site\Photos.aspx" />
+    <Content Include="Views\Site\Showreel.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Scripts\jquery-1.4.4.js" />
+    <Content Include="Scripts\jquery-1.4.4.min.js" />
+    <Content Include="Scripts\jquery-1.4.4-vsdoc.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery-ui.js" />
+    <Content Include="Scripts\jquery-ui.min.js" />
+    <Content Include="Scripts\MicrosoftAjax.js" />
+    <Content Include="Scripts\MicrosoftAjax.debug.js" />
+    <Content Include="Scripts\MicrosoftMvcAjax.js" />
+    <Content Include="Scripts\MicrosoftMvcAjax.debug.js" />
+    <Content Include="Scripts\MicrosoftMvcValidation.js" />
+    <Content Include="Scripts\MicrosoftMvcValidation.debug.js" />
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\Shared\Error.aspx" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Views\Shared\Site.Master" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>58165</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

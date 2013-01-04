@@ -1,0 +1,36 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">
+    Showreel
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="Main" runat="server">
+    <div class="contentItem">
+<<<<<<< .mine
+        <p><iframe src="http://player.vimeo.com/video/27691239?badge=0&amp;color=ffffff" width="500" height="400" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/27691239">Pedro Pinhal Showreel</a> </p>
+=======
+    
+        <h2>Showreel</h2>
+        
+        <p>
+            This is my current reel. Its freshly cut.            
+        </p>
+        <p>
+            <iframe src="http://player.vimeo.com/video/27691239?title=0&amp;byline=0&amp;portrait=0" width="500" height="380" frameborder="0"></iframe>
+        </p>
+
+        <h2>Boxing reel</h2>
+        <p>
+            This is my boxing reel which was shot at my local boxing gym, Times Amateur Boxing club. It gave me a chance to test out the Canon 60D plus new prime lenses and show me being active.
+        </p>
+        <p>
+            <iframe src="http://player.vimeo.com/video/26600197?title=0&amp;byline=0&amp;portrait=0" width="400" height="225" frameborder="0"></iframe>
+        </p>
+>>>>>>> .r19
+    </div>
+     
+</asp:Content>
+
+<asp:Content ID="Content3" ContentPlaceHolderID="PageTitleContent" runat="server">
+    showreel
+</asp:Content>

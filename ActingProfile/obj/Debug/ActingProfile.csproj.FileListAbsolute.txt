@@ -1,0 +1,4 @@
+C:\Work\ActingProfile\ActingProfile\bin\ActingProfile.dll
+C:\Work\ActingProfile\ActingProfile\bin\ActingProfile.pdb
+C:\Work\ActingProfile\ActingProfile\obj\Debug\ActingProfile.dll
+C:\Work\ActingProfile\ActingProfile\obj\Debug\ActingProfile.pdb
