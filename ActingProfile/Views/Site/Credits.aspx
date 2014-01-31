@@ -10,6 +10,14 @@
         
         <a name="theatre"></a>
         <h2>Theatre</h2>
+        
+        <h1>2013</h1>
+        <ul>
+            <li>Sonnet 29 / Phoenix Artist Club / SimplyShakespeare UK</li>
+            <li>Roy, Lone Star / Monologueslam @ Theatre Royal Stratford East / Tri Force Promotions</li>
+        </ul>
+        
+
         <h1>2012</h1>
         <ul>
             <li>H, Playing Fate / Surgeons Hall, Edinburgh Fringe / Mingyu Lin</li>
@@ -39,6 +47,14 @@
     <div class="contentItem">
         <a name="film"></a>
         <h2>Film & TV</h2>
+        
+        <h1>2013</h1>
+        <ul>
+            <li>Creature, Get Some / Horton Squared Productions / Adam & Joe Horton </li>
+            <li>Toby, Filth / Tiger Dreams Productions / Tony Errico</li>
+            <li>Student, Colonel Badd / Tiger Dreams Productions / Tony Errico</li>
+        </ul>
+         
         <h1>2012</h1>
         <ul>
             <li>Space Detective, The Double / Alcove Entertainment / Richard Ayoade</li>

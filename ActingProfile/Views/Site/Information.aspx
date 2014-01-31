@@ -17,7 +17,7 @@
                 <li><strong>Build</strong>: Athletic</li>
                 <li><strong>Hair</strong>: Brown</li>
                 <li><strong>Eyes</strong>: Brown</li>
-                <li><strong>Playing Age</strong>: 20-30</li>
+                <li><strong>Playing Age</strong>: 25-33</li>
                 <li><strong></strong></li>
             </ul>
         
@@ -51,11 +51,17 @@
         <a name="training"></a>
         <h2>Training</h2>
         
+        <h1>2013</h1>
+        <ul>
+          <li>Mark Summers Audition Masterclass @ Mark Summers London</li>
+        </ul>
+        
         <h1>2012</h1>
         <ul>
           <li>Andrea Clark Casting Workshop</li>
           <li>Juice Collective 4-week Workshop</li>
           <li>Raindance Saturday Film School</li>
+          <li>Introduction to P.E.M Workshop</li>
         </ul>
         
         <h1>2011</h1>

@@ -11,12 +11,12 @@
 
     <div class="contentItem">
         <img class="homepageHeadshot" src="<%: Url.Content("~/Content/images/headshots/01.jpg") %>" alt=""/>
-        <p>Hi and welcome to my site. My name is Pedro Pinhal and I'm an actor based in London. Originally from South Africa I moved to England 7 years ago.</p>
-        <p>I trained at the Actors Centre, London, and have a diverse array of skills, including street dance, boxing, sports and guitar. I'm also experienced in film production as I regularly shoot shorts with a film crew. I also have a few projects in various stages of production, including writing my own screenplay.</p>
+        <p>Hi and welcome to my site. I'm an actor based in London. Originally from South Africa I moved to England 8 years ago.</p>
+        <p>I trained at the Actors Centre, London, and have a diverse array of skills, including street dance, boxing, sports and guitar. I'm also experienced in film production as I regularly shoot shorts with a film crew. I am in pre-production for my own short film.</p>
         <h2>Current Projects</h2>
-        <p>Attending a month-long acting workshop @ <a href="http://www.juicecollective.com/">Juice Collective</a></p>
-        <p>Upcoming casting workshop with Annie Rowe.</p>
-        <p>In principle photography for two short films, 'Filth' and 'Badd to the bone'.</p>
+        <p>Recently completed <a href="http://www.marksummers.com/">Mark Summers Auditon Masterclass.</a></p>
+        <p>Second round of auditons for <a href="http://www.oldvictheatre.com/oldvicnewvoices/">Old Vic New Voices</a>.</p>
+        <p>In pre-production for my short film, The Fort.</p>
     </div>     
             
 </asp:Content>
