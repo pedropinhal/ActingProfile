@@ -148,6 +148,10 @@ a:focus {
 @media only screen and (max-width : 400px){
   .intro{
     background: url(./img/bg-small.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: 400px;
+    -moz-background-size: 400px;
+    background-size: 400px;
+    -o-background-size: 400px;
   }
 }
 
