@@ -16,15 +16,17 @@ footer: Pedro Pinhal
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
+    icon: twitter
     url: https://twitter.com/PedroPinhal
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
+  - title: spotlight
+    icon: star-o
+    url: http://www.spotlight.com/interactive/cv/1/M153065
+  - title: casting call pro
+    icon: copyright
+    url: http://www.uk.castingcallpro.com/view.php?uid=224077
+  - title: imdb
+    icon: info
+    url: http://www.imdb.com/name/nm3155663/
 
 # Build settings
 markdown: kramdown
