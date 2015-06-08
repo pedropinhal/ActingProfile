@@ -1,11 +1,170 @@
 <!-- Reel Section -->
 <section id="reel" class="container content-section text-center">
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-lg-12">
             <h2>Reel</h2>
 
       <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'>
       <iframe src='https://player.vimeo.com/video/27691239' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+
+    <a id="imgs"></a>
+    <a class="lightbox" href="#01">
+     <img src="./img/headshots/01-thumb.jpg"/>
+  </a>
+  <div class="lightbox-target" id="01">
+     <img src="./img/headshots/01.jpg"/>
+     <a class="lightbox-close" href="#imgs"></a>
+  </div>
+
+  <a class="lightbox" href="#03">
+   <img src="./img/headshots/03-thumb.jpg"/>
+</a>
+<div class="lightbox-target" id="03">
+   <img src="./img/headshots/03.jpg"/>
+   <a class="lightbox-close" href="#imgs"></a>
+</div>
+
+<a class="lightbox" href="#05">
+ <img src="./img/headshots/05-thumb.jpg"/>
+</a>
+<div class="lightbox-target" id="05">
+ <img src="./img/headshots/05.jpg"/>
+ <a class="lightbox-close" href="#imgs"></a>
+</div>
+
+<a class="lightbox" href="#t1">
+ <img src="./img/theatre/ripley_1441-thumb.jpg"/>
+</a>
+<div class="lightbox-target" id="t1">
+ <img src="./img/theatre/ripley_1441.jpg"/>
+ <a class="lightbox-close" href="#imgs"></a>
+</div>
+
+<div>
+
+<style>
+
+/*Eliminates padding, centers the thumbnail */
+body, html {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+/* Styles the thumbnail */
+a.lightbox img {
+  /*height: 150px;*/
+  border: 3px solid white;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  margin: 94px 20px 20px 20px;
+}
+
+/* Styles the lightbox, removes it from sight and adds the fade-in transition */
+.lightbox-target {
+  position: fixed;
+  top: -100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
+  overflow: hidden;
+}
+
+/* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
+.lightbox-target img {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 0%;
+  max-width: 0%;
+  border: 3px solid white;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+/* Styles the close link, adds the slide down transition */
+a.lightbox-close {
+  display: block;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  background: white;
+  color: black;
+  text-decoration: none;
+  position: absolute;
+  top: -80px;
+  right: 0;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+a.lightbox-close:before {
+  content: "";
+  display: block;
+  height: 30px;
+  width: 1px;
+  background: black;
+  position: absolute;
+  left: 26px;
+  top: 10px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+a.lightbox-close:after {
+  content: "";
+  display: block;
+  height: 30px;
+  width: 1px;
+  background: black;
+  position: absolute;
+  left: 26px;
+  top: 10px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
+.lightbox-target:target {
+  opacity: 1;
+  top: 0;
+  bottom: 0;
+}
+
+.lightbox-target:target img {
+max-height: 100%;
+max-width: 100%;
+}
+
+.lightbox-target:target{
+top: 0px;
+}
+
+a.lightbox-close {
+top: 100px;
+right: 100px;
+}
+
+</style>
 
         </div>
     </div>
