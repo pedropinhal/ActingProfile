@@ -3,22 +3,22 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2">
       <h2>Contact</h2>
-      <p><b>Mobile</b>: +44 (0)7837103311 <br />
-        Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a> <br/>
-        Location: London, England <br />
-        Height: 5'10'' <br />
-        Build: Athletic <br />
-        Hair: Brown <br />
-        Eyes: Brown <br />
-        Playing Age: 27-35</p>
+      <p><b>Mobile</b>: +44 (0)7837103311
+        <br /> Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        <br/> Location: London, England
+        <br /> Height: 5'10''
+        <br /> Build: Athletic
+        <br /> Hair: Brown
+        <br /> Eyes: Brown
+        <br /> Playing Age: 27-35</p>
 
-        <ul class="list-inline banner-social-buttons">
-          {% for network in site.social %}
-          <li>
-            <a href="{{ network.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ network.icon }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
-            </li>
-            {% endfor %}
-        </ul>
+      <ul class="list-inline banner-social-buttons">
+        {% for network in site.social %}
+        <li>
+          <a href="{{ network.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ network.icon }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
+        </li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
 </section>
