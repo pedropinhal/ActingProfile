@@ -266,12 +266,12 @@ a:focus {
     padding: 50px 0;
     color: #fff;
     background-color: {{ site.color.primary-dark }};
-    
+
 }
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 200px;
     }
 
     .download-section {
