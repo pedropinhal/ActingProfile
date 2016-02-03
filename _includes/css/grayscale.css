@@ -254,12 +254,6 @@ a:focus {
     padding-top: 100px;
 }
 
-@media(min-width:767px) {
-    .content-section {
-        padding-top: 200px;
-    }
-}
-
 .btn {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
