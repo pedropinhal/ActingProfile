@@ -3,7 +3,7 @@ title: Pedro Pinhal Actor
 email: pedro.pinhal@gmail.com
 url: http://www.pedropinhal.com
 description: "Pedro Pinhal Actor website. View my reel, credits, training and blog."
-baseurl: /
+baseurl: 
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
